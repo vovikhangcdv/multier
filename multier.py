@@ -1,5 +1,3 @@
-# Reference: https://sqlite.org/syntax/expr.html 
-
 from random import SystemRandom
 import requests, time, threading, queue, copy
 
