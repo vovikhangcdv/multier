@@ -19,7 +19,7 @@ def funName(data1, data2):
 
 if __name__ == '__main__':
     # TODO: dataList = ...
-    _input = [tuple(data[0], data[1]) for data in dataList]
+    _input = [tuple([data[0], data[1]]) for data in dataList]
     NUM_THREAD = 10
     multithreading(_input, funName, NUM_THREAD)
 ```
